@@ -6,6 +6,7 @@ nav li {
 nav a {
     text-decoration: none;
     color: rgb(20, 90, 180);
+    align-items: center;
 }
 
 nav a:hover {
@@ -15,7 +16,7 @@ nav a:hover {
 nav a::after {
     content: "";
     display: block;
-    height: 3px;
+    height: 10px;
     background: #a0ebfd;
     width: 0%;
     transition: all ease-in-out 300ms;
