@@ -16,4 +16,4 @@ permalink: /life/
 
 
 
-[back](/)
+[Go Home](/)

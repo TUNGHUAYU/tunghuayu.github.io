@@ -22,4 +22,4 @@ references:
 
 
 
-[back](/)
+[Go Home](/)
