@@ -7,6 +7,6 @@ permalink: /resume/
 
 <a href="tunghuayu.github.io/pdfs/resume_v3.1.pdf" target="_blank">RESUME PDF</a>
 
-<embed src="https://tunghuayu.github.io/pdfs/resume_v3.1.pdf" type="application/pdf" />
+<embed src="https://tunghuayu.github.io/pdfs/resume_v3.1.pdf" type="application/pdf" width="85%" height="75%" />
 
 [Go Home](/)
