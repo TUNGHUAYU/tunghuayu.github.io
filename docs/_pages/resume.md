@@ -12,7 +12,7 @@ permalink: /resume/
 
 # Arcadyan Experiment
 
-<object data="https://tunghuayu.github.io/figures/arcadyan_work_overview.svg" width="100%" height="500px">
+<object data="https://tunghuayu.github.io/figures/arcadyan_work_overview.svg" type="image/svg+xml" width="100%" height="100%">
     <p>Unable to display SVG file. <a href="tunghuayu.github.io/figures/arcadyan_work_overview.svg">Download</a> instead.</p>
 </object>
 
