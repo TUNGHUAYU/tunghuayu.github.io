@@ -4,9 +4,24 @@ title: Resume
 permalink: /resume/
 ---
 
-<h1>Resume PDF</h1>
+# Resume PDF
+
 <object data="https://tunghuayu.github.io/pdfs/resume_v3.1.pdf" type="application/pdf" width="100%" height="500px">
     <p>Unable to display PDF file. <a href="tunghuayu.github.io/pdfs/resume_v3.1.pdf">Download</a> instead.</p>
 </object>
+
+# Arcadyan Experiment
+
+<object data="https://tunghuayu.github.io/figures/arcadyan_work_overview.svg" width="100%" height="500px">
+    <p>Unable to display SVG file. <a href="tunghuayu.github.io/figures/arcadyan_work_overview.svg">Download</a> instead.</p>
+</object>
+
+# Reference
+
+1. Published ICMLC Conference Paper <br>
+[An Accelerometer-Based Gait Analysis System to Detect Gait Abnormalities in Cerebrospinal Meningitis Patients](https://ieeexplore.ieee.org/document/8949256)
+
+2. Github <br>
+[Github](https://github.com/TUNGHUAYU)
 
 [Go Home](/)
