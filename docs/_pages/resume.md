@@ -6,7 +6,7 @@ permalink: /resume/
 
 # Resume PDF
 
-<object data="https://tunghuayu.github.io/pdfs/resume_v3.1.pdf" type="application/pdf" width="100%" height="850px">
+<object data="https://tunghuayu.github.io/pdfs/resume_v3.2.pdf" type="application/pdf" width="100%" height="100%">
     <p>Unable to display PDF file. <a href="tunghuayu.github.io/pdfs/resume_v3.1.pdf">Download</a> instead.</p>
 </object>
 
