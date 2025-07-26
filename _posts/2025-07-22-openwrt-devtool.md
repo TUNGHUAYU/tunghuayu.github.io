@@ -44,6 +44,6 @@ The major idea is duplicate the target package to seperate workspace
 There are serveral example below:
 - Prepare openwrt image and run it on qemu. [link]({% link _posts/2025-07-22-openwrt-qmeu-virtual-machine.md%})
 - Create new package, hello world package.  [link]({% link _posts/2025-07-24-openwrt-devtool-new-hellowrold-package.md%})
-- Modify existed package. [todo]()
+- Modify existed package. todo
 
 
