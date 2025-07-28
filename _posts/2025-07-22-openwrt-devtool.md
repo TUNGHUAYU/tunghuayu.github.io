@@ -12,7 +12,7 @@ date: 2025-07-22 23:48 +0800
 - [Layout](#layout)
 - [Example](#example)
 
-# Introduction
+## Introduction
 
 The devtool provides the following features:
 1. **Modify** the package from openwrt codebase.
@@ -22,7 +22,7 @@ The devtool provides the following features:
 
 The major idea is duplicate the target package to seperate workspace 
 
-# Layout 
+## Layout 
 
 ```bash
 <user>/
@@ -39,7 +39,7 @@ The major idea is duplicate the target package to seperate workspace
 **todo**: complete layout tree diagram ( sub-folders below workspace/ )
 
 
-# Example
+## Example
 
 There are serveral example below:
 - Prepare openwrt image and run it on qemu. [link]({% link _posts/2025-07-22-openwrt-qmeu-virtual-machine.md%})

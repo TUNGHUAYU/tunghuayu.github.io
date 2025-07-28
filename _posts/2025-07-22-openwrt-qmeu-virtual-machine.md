@@ -6,14 +6,21 @@ categories: [OpenWRT]
 tags: [openwrt, qemu]     # TAG names should always be lowercase
 ---
 
-# Brief
+- [Brief](#brief)
+- [Build openwrt image (armsr)](#build-openwrt-image-armsr)
+- [Run openwrt image on qemu](#run-openwrt-image-on-qemu)
+  - [Command Line Interface](#command-line-interface)
+  - [UTM GUI](#utm-gui)
+- [Connect Host and virtual machine](#connect-host-and-virtual-machine)
 
-1. Build openwrt image for qemu
-2. Run openwrt image on qemu
 
-<br>
 
-# Build openwrt image for qemu
+## Brief
+
+This topic shared about the way how generate an arm-based openwrt image. 
+OpenWRT provides build-in TARGET (armsr) that genearte arm-based images.
+
+## Build openwrt image (armsr)
 
 ```bash
 # Download repository 
@@ -37,7 +44,9 @@ $ make
 
 <br>
 
-# Run openwrt image on qemuQemu boot image
+## Run openwrt image on qemu
+
+### Command Line Interface
 
 ```bash
 
@@ -74,3 +83,16 @@ qemu-system-arm \
   -nographic
 
 ```
+
+### UTM GUI
+
+todo: UTM GUI approach
+
+
+
+## Connect Host and virtual machine
+
+
+
+
+
