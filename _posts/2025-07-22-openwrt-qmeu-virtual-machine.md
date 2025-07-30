@@ -9,9 +9,9 @@ tags: [openwrt, qemu]     # TAG names should always be lowercase
 - [Brief](#brief)
 - [Build openwrt image (armsr)](#build-openwrt-image-armsr)
 - [Run openwrt image on qemu](#run-openwrt-image-on-qemu)
-  - [Command Line Interface](#command-line-interface)
-  - [UTM GUI](#utm-gui)
-- [Connect Host and virtual machine](#connect-host-and-virtual-machine)
+  - [CLI (qemu-system-arm)](#cli-qemu-system-arm)
+  - [GUI (UTM)](#gui-utm)
+- [References](#references)
 
 
 
@@ -46,7 +46,7 @@ $ make
 
 ## Run openwrt image on qemu
 
-### Command Line Interface
+### CLI (qemu-system-arm)
 
 ```bash
 
@@ -84,15 +84,37 @@ qemu-system-arm \
 
 ```
 
-### UTM GUI
+### GUI (UTM)
 
 todo: UTM GUI approach
 
+Install UTM on macos via [utm official website][3]
+
+Setup UTM virtual machine via [openwrt utm tutorial page][1]
+
+``` bash
+# check openwrt LAN configuration
+root@openwrt:~# uci show network.lan
+
+# change LAN ipaddress for SSH connection
+root@openwrt:~#  uci set network.lan.ipaddr='10.0.2.2'
+root@openwrt:~#  uci commit
+root@openwrt:~#  service network restart
+```
+
+``` bash
+user@mac $ ssh root@10.0.2.2
+```
+
+![image](assets/img/post/utm-armvirt-openwrt-ssh.png)
 
 
-## Connect Host and virtual machine
+## References
 
+- [1][1] openwrt forum / Using utm (qemu GUI) to bring up openwrt image 
+- [2][2] markuta       / Using qemu CLI to bring up openwrt image 
+- [3][3] utm           / utm official website
 
-
-
-
+[1]: https://openwrt.org/docs/guide-user/virtualization/utm
+[2]: https://markuta.com/openwrt-qemu-m1/
+[3]: https://mac.getutm.app
