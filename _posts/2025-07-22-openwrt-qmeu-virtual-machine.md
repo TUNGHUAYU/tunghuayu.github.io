@@ -106,7 +106,7 @@ root@openwrt:~#  service network restart
 user@mac $ ssh root@10.0.2.2
 ```
 
-![image](assets/img/post/utm-armvirt-openwrt-ssh.png)
+![image](/assets/img/post/utm-armvirt-openwrt-ssh.png)
 
 
 ## References
