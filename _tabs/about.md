@@ -30,12 +30,12 @@ I'm Terry — a software engineer and writer interested in web development, stat
 
 ## Resume
 
-- [Resume](/assets/resume/resume_v3.4.pdf)
+- [Resume](/assets/resume/resume_v3.4-2.pdf)
 
 <br>
 
-<iframe src="/assets/resume/resume_v3.4.pdf" width="100%" height="1000px">
-    Your browser does not support iframes. <a href="/assets/resume/resume_v3.4.pdf">Download the PDF</a>.
+<iframe src="/assets/resume/resume_v3.4-2.pdf" width="100%" height="1000px">
+    Your browser does not support iframes. <a href="/assets/resume/resume_v3.4-2.pdf">Download the PDF</a>.
 </iframe>
 
 
