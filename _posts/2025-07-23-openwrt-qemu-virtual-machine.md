@@ -1,11 +1,13 @@
 ---
 layout: post
-title: OpenWRT - qmeu virtual machine
-date: 2025-07-22 23:28 +0800
-categories: [OpenWRT]
-tags: [openwrt, qemu]     # TAG names should always be lowercase
+title: OpenWRT - qemu virtual machine
+categories:
+- OpenWRT
+tags:
+- openwrt
+- qemu
+date: 2025-07-23 00:00 +0000
 ---
-
 - [Brief](#brief)
 - [Build openwrt image (armsr)](#build-openwrt-image-armsr)
 - [Run openwrt image on qemu](#run-openwrt-image-on-qemu)
