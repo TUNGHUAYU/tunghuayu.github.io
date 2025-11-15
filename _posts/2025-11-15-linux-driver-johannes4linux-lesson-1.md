@@ -57,11 +57,14 @@ MODULE_LICENSE("GPL");
 
 The below video demo the hello.ko behavior.
 
-<iframe width="560" height="315"
-        src="https://youtu.be/OXOvedbwlkE?si=B-6C7bIlalbnp-4t"
-        frameborder="0"
-        allowfullscreen>
+<iframe
+  width="560"
+  height="315"
+  src="https://www.youtube.com/embed/OXOvedbwlkE"
+  frameborder="0"
+  allowfullscreen>
 </iframe>
+
 
 
 ---
