@@ -57,10 +57,11 @@ MODULE_LICENSE("GPL");
 
 The below video demo the hello.ko behavior.
 
-<video width="640" controls>
-  <source src="https://youtu.be/OXOvedbwlkE">
-  Your browser doesn’t support HTML5 video.
-</video>
+<iframe width="560" height="315"
+        src="https://youtu.be/OXOvedbwlkE?si=B-6C7bIlalbnp-4t"
+        frameborder="0"
+        allowfullscreen>
+</iframe>
 
 
 ---
