@@ -53,9 +53,16 @@ module_exit(my_exit);
 MODULE_LICENSE("GPL");
 ```
 
+---
+
+The below video demo the hello.ko behavior.
+
 <video width="640" controls>
-  <source src="/assets/video/lesson1.mov" type="video/quicktime">
+  <source src="https://youtu.be/OXOvedbwlkE">
   Your browser doesn’t support HTML5 video.
 </video>
+
+
+---
 
 [1]: {% post_url 2025-11-14-practice-linux-driver-by-virtual-machine-in-macos %}
